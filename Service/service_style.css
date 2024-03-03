@@ -46,7 +46,7 @@ h2 {
     border: 2px solid black;
     text-align: center;
     transition: all 0.3s ease;
-    background-color: #f4f8dd;
+    background-color: #e2f8dd;
     border-radius: 10px;
 }
 
@@ -71,7 +71,7 @@ h2 {
 }
 
 .service-item p {
-    color: #666;
+    color: #393838;
 }
 
 
