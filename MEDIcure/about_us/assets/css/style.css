@@ -123,6 +123,7 @@ body {
   font-size: 36px;
   width: 100%;
   color: #444;
+  padding-top: 30px;
 }
 
 @media screen and (max-width: 600px) {
@@ -325,7 +326,7 @@ body {
 }
 
 .with-medical .txtr h4 span {
-  color: #03509e;
+/*   color: #03509e; */
 }
 
 .with-medical .txtr p {
