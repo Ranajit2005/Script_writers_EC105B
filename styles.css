@@ -9,6 +9,10 @@
     --corner-radius: 5px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -39,7 +43,7 @@ body {
 
 .container {
     margin: 2em;
-    min-height: 100vh;
+    min-height: fit-content;
     padding: 2em 2em 5em 2em;
     display: flex;
     flex-direction: column;
@@ -55,7 +59,7 @@ nav {
     gap: 1rem;
 }
 
-.nav-hide {
+/* .nav-hide {
 
 
     width: 2.5em;
@@ -76,7 +80,7 @@ nav {
     margin: 2px;
     width: 65%;
     background-color: var(--text-dark);
-}
+} */
 
 .nav__logo {
     font-size: 1.5rem;
