@@ -103,6 +103,15 @@
     }
 }
 
+@media only screen and (max-width:628px) {
+    .first .box .child {
+        flex-basis: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
 @media only screen and (max-width:500px) {
     body {
         zoom: 0.6;
