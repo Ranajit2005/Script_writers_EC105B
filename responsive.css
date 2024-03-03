@@ -24,6 +24,14 @@
     .image__bg {
         background-position-x: 50%;
     }
+
+    .second {
+        background: white;
+    }
+
+    .second>* {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width:877px) {
@@ -76,10 +84,11 @@
 
 @media only screen and (max-width:750px) {
 
-    nav{
+    nav {
         display: flex;
         flex-direction: column;
     }
+
     .nav__links {
         font-size: large;
         display: flex;
