@@ -73,6 +73,14 @@ main {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.plan:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #f1ddfd;
+    border: 1px solid #e8c0ff;
 }
 
 .plan h2 {
