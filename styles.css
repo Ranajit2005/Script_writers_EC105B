@@ -324,3 +324,31 @@ nav {
 .second p:last-child {
     color: var(--text-light);
 }
+
+.third{
+    border-radius: var(--corner-radius);
+    margin: 2em;
+    padding: 2em;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.third .contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+.third .contact-box >img{
+    width: 3em;
+    margin-right: 0.5em;
+}
+.third .contact-box:last-child img{
+    width: 3.6em;
+}
+.third .contact-box .info{
+    text-align: center;
+}
+.third a{
+    color: var(--primary-color);
+}

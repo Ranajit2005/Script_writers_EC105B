@@ -32,6 +32,13 @@
     .second>* {
         width: 100%;
     }
+    .third{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .third .contact-box{
+        justify-content: flex-start;
+    }
 }
 
 @media only screen and (max-width:877px) {
