@@ -93,8 +93,8 @@
     width: 40%;
     padding: 40px;
 /*     background: #fff; */
-    border:3px solid #fff;
-    border-radis: 15px;
+    border: 3px solid #fff;
+    border-radius: 15px;
 }
 
 .ContactForm h2 {
@@ -131,6 +131,8 @@
     border-bottom: 2px solid #333;
     outline: none;
     resize: none;
+    border: 3px solid #fff;
+    border-radius: 10px;
 }
 
 .ContactForm .inputBox span {
