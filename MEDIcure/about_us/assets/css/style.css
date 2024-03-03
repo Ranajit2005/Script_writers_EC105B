@@ -292,7 +292,11 @@ body {
   color: #FFF;
   margin-bottom: 0px;
 }
-
+.our-team .team-row .single-usr:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  /* transition: all 0.3s ease; */
+}
 .our-team .team-row .single-usr .det-o i {
   color: #FFF;
 }
