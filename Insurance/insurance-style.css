@@ -1,0 +1,128 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.intro{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eed9ff;
+    width: 100%;
+}
+
+.intro-talk1{
+    text-align: center;
+    padding:20px auto;
+    margin: 20px;
+    margin-top: 40px;
+    background-color: rgb(234, 222, 255);
+    padding: 10px 15px;
+    border-radius: 7px;
+    border: 10px solid rgb(200, 206, 255);
+}
+
+.intro-talk h1{
+    font-size: 30px;
+}
+
+.intro-talk2{
+    text-align: center;
+    padding:20px auto;
+    margin: 20px;
+    margin-top: 40px;
+    background-color: rgb(234, 222, 255);
+    padding: 10px 15px;
+    border-radius: 7px;
+    border: 10px solid rgb(200, 206, 255);
+}
+
+
+#insurance-pic{
+    display: flex;
+    justify-self: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.insurance-plans {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.plan {
+    width: 300px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.plan h2 {
+    margin-top: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+#insurance-btn01{
+    margin-top: 35px;
+}
+#insurance-btn02{
+    margin-top: 17px;
+}
+
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 412px) {
+    #insurance-pic{
+        display: none;
+
+    }
+    .intro-talk1 h1{
+        font-size: 25px;
+    }
+    .intro-talk2 h2{
+        font-size: 20px;
+    }
+}
