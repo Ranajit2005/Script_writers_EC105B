@@ -9,6 +9,24 @@
     --corner-radius: 5px;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: var(--corner-radius);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    cursor: grab;
+    background: var(--primary-color-dark);
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -59,29 +77,6 @@ nav {
     gap: 1rem;
 }
 
-/* .nav-hide {
-
-
-    width: 2.5em;
-    height: 2.5em;
-    border-radius: 50%;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 0 0.3em 0.1em rgba(0, 0, 0, 0.114);
-
-    display: none;
-}
-
-.nav-hide .bar {
-    height: 6%;
-    margin: 2px;
-    width: 65%;
-    background-color: var(--text-dark);
-} */
-
 .nav__logo {
     font-size: 1.5rem;
     font-weight: 600;
@@ -97,11 +92,20 @@ nav {
 }
 
 .link a {
+    font-weight: bold;
     text-decoration: none;
     color: var(--text-light);
     cursor: pointer;
     transition: 0.3s;
     z-index: 5;
+}
+
+.link:first-child a {
+    color: var(--primary-color);
+}
+
+.link a:hover {
+    color: var(--primary-color);
 }
 
 .header {
@@ -283,4 +287,39 @@ nav {
 
 .first .box .child:hover h3 {
     color: var(--primary-color-dark);
+}
+
+.second {
+    padding: 2em;
+    margin: 2em;
+    height: fit-content;
+    border-radius: var(--corner-radius);
+    background: white url('./image/home-1-banner-3.jpg') no-repeat;
+    background-size: cover;
+}
+
+.second>* {
+    width: 50%;
+}
+
+.second h2 {
+    font-size: 2em;
+    padding: 2em;
+}
+
+.second h2 span {
+    color: var(--primary-color);
+}
+
+.second p {
+    font-size: larger;
+    padding: 0.8em 2em;
+}
+
+.second p:first-child {
+    color: var(--text-dark);
+}
+
+.second p:last-child {
+    color: var(--text-light);
 }
