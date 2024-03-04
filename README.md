@@ -34,7 +34,7 @@ MEDIcure is a comprehensive medical website developed by a team consisting of Ra
 - The Contact Us section allows users to get in touch with MDiCure for inquiries, appointments, or support.<br>
 - It typically includes a contact form, phone numbers, email addresses, and physical addresses of MDiCure offices or facilities.<br>
 - Users can submit their queries or feedback through the contact form provided on this page.<br> <br> <br> <br>
-![contactus](https://github.com/mdsalmanfarsee/Script_writers_EC105B/assets/131802142/7e0631a5-0eb1-46dd-b37e-e6e3d9296c56)
+![contact_new](https://github.com/mdsalmanfarsee/Script_writers_EC105B/assets/131802142/bab83b12-75dc-43c3-8ecb-1457029f5db4)
 
 ### Register Now
 - The Register Now section enables users to sign up for an account on MDiCure's website.<br>
