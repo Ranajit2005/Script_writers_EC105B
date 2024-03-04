@@ -16,7 +16,8 @@
     align-items: center;
     flex-direction: column;
     background: url(hospital.jpeg);
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .contact .content {
@@ -26,9 +27,9 @@
 }
 
 .contact .content h2 {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 500;
-    color: #fff;
+    color: #00bcd4;
 
 }
 
@@ -92,14 +93,14 @@
 .ContactForm {
     width: 40%;
     padding: 40px;
-/*     background: #fff; */
+    background-color: rgba(255, 255, 255, 0.3);
     border: 3px solid #fff;
     border-radius: 15px;
 }
 
 .ContactForm h2 {
-    font-size: 30px;
-    color: #333;
+    font-size: 36px;
+    color: #00bcd4;
     font-weight: 500;
 
 }
@@ -110,7 +111,7 @@
     margin-top: 10px;
 }
 
-.ContactForm .inputBox input{
+.ContactForm .inputBox input {
     width: 100%;
     padding: 5px;
     font-size: 16px;
@@ -122,6 +123,7 @@
     border: 3px solid #fff;
     border-radius: 10px;
 }
+
 .ContactForm .inputBox textarea {
     width: 100%;
     padding: 5px 0;
