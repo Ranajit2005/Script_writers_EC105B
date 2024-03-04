@@ -173,8 +173,8 @@
 }
 
 @media only screen and (max-width:402px) {
-    .third {
-        zoom: 1.5;
+    .third >*{
+        zoom: 0.7;
     }
 
     .second h2 {
