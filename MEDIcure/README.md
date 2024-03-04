@@ -2,7 +2,7 @@
 
 ## Description
 MDiCure is a comprehensive medical website developed by a team consisting of Ranajit, Ranit, Salman, and Dipanjan. The website aims to provide users with essential information and services related to healthcare, insurance, and medical services.
-![Alt text](/Script_writers_EC105B/image/homepage.png)
+![homepage](https://github.com/mdsalmanfarsee/Script_writers_EC105B/assets/131802142/c18017fb-b52f-4e1e-823e-28c99e9d06c0)
 
 ## Features
 
