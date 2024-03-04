@@ -167,13 +167,47 @@
     .container .image__content__2 {
         zoom: 0.7;
     }
-    .container .image{
+
+    .container .image {
         zoom: 0.5;
     }
 }
 
+@media only screen and (max-width:539px) {
+
+    .container,
+    .second,
+    .third {
+        padding: 1em;
+        margin: 0 0 1em 0;
+        /* background-color: aqua; */
+    }
+    .first{
+        padding: 0;
+    }
+    .first .box {
+        margin: 0 0 1em 0;
+    }
+    .first .box{
+        margin-top: 1em;
+    }
+    .third{
+        margin-top: 1em;
+
+    }
+    main .contact-header{
+        margin-left: 1em;
+    }
+    .nav__logo{
+        padding-top: 2em;
+    }
+    .nav__links{
+        margin-top: 2.5em;
+    }
+}
+
 @media only screen and (max-width:402px) {
-    .third >*{
+    .third>* {
         zoom: 0.7;
     }
 
