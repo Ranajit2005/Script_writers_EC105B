@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #007bff;
+    background-color: #02bfa0;
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -16,8 +16,8 @@ h1 {
     margin: 0;
 }
 
-.intro{
-    display: flex;  
+.intro {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -25,9 +25,9 @@ h1 {
     width: 100%;
 }
 
-.intro-talk1{
+.intro-talk1 {
     text-align: center;
-    padding:20px auto;
+    padding: 20px auto;
     margin: 20px;
     margin-top: 40px;
     background-color: rgb(234, 222, 255);
@@ -36,13 +36,13 @@ h1 {
     border: 10px solid rgb(200, 206, 255);
 }
 
-.intro-talk h1{
+.intro-talk h1 {
     font-size: 30px;
 }
 
-.intro-talk2{
+.intro-talk2 {
     text-align: center;
-    padding:20px auto;
+    padding: 20px auto;
     margin: 20px;
     margin-top: 40px;
     background-color: rgb(234, 222, 255);
@@ -52,7 +52,7 @@ h1 {
 }
 
 
-#insurance-pic{
+#insurance-pic {
     display: flex;
     justify-self: center;
 }
@@ -76,7 +76,7 @@ main {
     transition: all 0.3s ease;
 }
 
-.plan:hover{
+.plan:hover {
     transform: scale(1.05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     background-color: #f1ddfd;
@@ -97,7 +97,7 @@ ul li {
 }
 
 button {
-    background-color: #007bff;
+    background-color: #5be9d1;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -106,31 +106,35 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #19554b;
 }
-#insurance-btn01{
+
+#insurance-btn01 {
     margin-top: 35px;
 }
-#insurance-btn02{
+
+#insurance-btn02 {
     margin-top: 17px;
 }
 
 footer {
-    background-color: #007bff;
+    background-color: #02bfa0;
     color: #fff;
     text-align: center;
     padding: 10px 0;
 }
 
 @media screen and (max-width: 412px) {
-    #insurance-pic{
+    #insurance-pic {
         display: none;
 
     }
-    .intro-talk1 h1{
+
+    .intro-talk1 h1 {
         font-size: 25px;
     }
-    .intro-talk2 h2{
+
+    .intro-talk2 h2 {
         font-size: 20px;
     }
 }
