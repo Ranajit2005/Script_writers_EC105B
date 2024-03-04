@@ -22,7 +22,7 @@ MEDIcure is a comprehensive medical website developed by a team consisting of Ra
 - The Insurance section is dedicated to providing information about various insurance plans related to healthcare.<br>
 - It may include details about different types of insurance coverage, eligibility criteria, and how to apply for insurance.<br>
 - Users can learn about the importance of health insurance and its benefits through this section.<br> <br> <br> <br>
-![insuarance](https://github.com/mdsalmanfarsee/Script_writers_EC105B/assets/131802142/c704c3c8-e649-4379-99c4-16fc4264f82a)
+![insuarance](https://github.com/mdsalmanfarsee/Script_writers_EC105B/assets/131802142/f41c5c9c-28a4-4305-8424-9441b833bcf7)
 
 ### Services
 - The Services section outlines the medical services offered by MDiCure.<br>
@@ -34,7 +34,7 @@ MEDIcure is a comprehensive medical website developed by a team consisting of Ra
 - The Contact Us section allows users to get in touch with MDiCure for inquiries, appointments, or support.<br>
 - It typically includes a contact form, phone numbers, email addresses, and physical addresses of MDiCure offices or facilities.<br>
 - Users can submit their queries or feedback through the contact form provided on this page.<br> <br> <br> <br>
-![contact_new](https://github.com/mdsalmanfarsee/Script_writers_EC105B/assets/131802142/bab83b12-75dc-43c3-8ecb-1457029f5db4)
+![contact_new](https://github.com/mdsalmanfarsee/Script_writers_EC105B/assets/131802142/a690371f-a4b0-46f7-b2df-4663ce1f5f76)
 
 ### Register Now
 - The Register Now section enables users to sign up for an account on MDiCure's website.<br>
