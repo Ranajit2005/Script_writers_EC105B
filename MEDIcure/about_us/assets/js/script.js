@@ -63,7 +63,7 @@
 
 // });
 
-let service = document.getElementById('bfa');
-service.addEventListener("click",function(){
-    window.location.href = "/contact/contact.html";
-})
+// let service = document.getElementById('bfa');
+// service.addEventListener("click",function(){
+//     window.location.href = "/SCRIPT_WRITERS_EC105B/contact/contact.html";
+// })
