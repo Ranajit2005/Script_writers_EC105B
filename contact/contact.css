@@ -15,9 +15,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(hospital.jpeg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background: url(new_hospital2.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
 }
 
 .contact .content {
@@ -29,7 +30,7 @@
 .contact .content h2 {
     font-size: 40px;
     font-weight: 500;
-    color: #00bcd4;
+    color: #fff;
 
 }
 
@@ -70,6 +71,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid black;
     border-radius: 50%;
     font-size: 22px;
 
@@ -85,8 +87,8 @@
 }
 
 .container .contactInfo .box .text h3 {
-    font-weight: 500;
-    color: #00bcd4;
+    font-weight: 800;
+    color: #0e1010;
 
 }
 
@@ -159,7 +161,7 @@
 
 .ContactForm .inputBox input[type="submit"] {
     width: 100px;
-    background: #12d4b3;
+    background: #02bfa0;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -170,18 +172,19 @@
 
 #first {
     background: url(icons8-map-50.png);
-    filter: invert(100%);
+    /* filter: invert(100%); */
     background-size: contain;
 }
 
 #second {
     background: url(icons8-phone.gif);
+    /* filter: invert(50%); */
     background-size: contain;
 }
 
 #third {
     background: url(icons8-email-100.png);
-    filter: invert(100%);
+    /* filter: invert(100%); */
     background-size: contain;
 }
 

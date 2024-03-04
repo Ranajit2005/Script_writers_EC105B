@@ -16,8 +16,8 @@ h1 {
     margin: 0;
 }
 
-.intro{
-    display: flex;  
+.intro {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -25,9 +25,9 @@ h1 {
     width: 100%;
 }
 
-.intro-talk1{
+.intro-talk1 {
     text-align: center;
-    padding:20px auto;
+    padding: 20px auto;
     margin: 20px;
     margin-top: 40px;
     background-color: rgb(252, 255, 233);
@@ -37,13 +37,14 @@ h1 {
     box-shadow: 5px 5px 5px #cdc7c7;
 }
 
+
 .intro-talk h1{
     font-size: 28px;
 }
 
-.intro-talk2{
+.intro-talk2 {
     text-align: center;
-    padding:20px auto;
+    padding: 20px auto;
     margin: 20px;
     margin-top: 33px;
     background-color: rgb(255, 253, 222);
@@ -60,7 +61,7 @@ h1 {
 }
 
 
-#insurance-pic{
+#insurance-pic {
     display: flex;
     justify-self: center;
     position: relative;
@@ -86,7 +87,7 @@ main {
     transition: all 0.3s ease;
 }
 
-.plan:hover{
+.plan:hover {
     transform: scale(1.05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     background-color: #d9fffa;
@@ -108,7 +109,6 @@ ul li {
     margin-bottom: 5px;
     margin-left: 15px;
 }
-
 .btn {
     background-color: #209677;
     color: #fff;
@@ -125,7 +125,8 @@ ul li {
     background-color: #1b8065;
     box-shadow: 2px 2px 4px rgb(167, 167, 167);
 }
-.btn{
+
+#insurance-btn01 {
     margin-top: 35px;
     text-decoration: none;
     font-size: 10px;
@@ -168,7 +169,8 @@ button:hover {
     background-color: #1b8065;
     box-shadow: 2px 2px 4px rgb(167, 167, 167);
 }
-#insurance-btn02{
+
+#insurance-btn02 {
     margin-top: 17px;
 }
 
@@ -183,14 +185,16 @@ footer {
 }
 
 @media screen and (max-width: 412px) {
-    #insurance-pic{
+    #insurance-pic {
         display: none;
 
     }
-    .intro-talk1 h1{
+
+    .intro-talk1 h1 {
         font-size: 25px;
     }
-    .intro-talk2 h2{
+
+    .intro-talk2 h2 {
         font-size: 20px;
     }
 }
