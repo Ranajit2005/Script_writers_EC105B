@@ -32,22 +32,21 @@
     .second>* {
         width: 100%;
     }
-    .third{
+
+    .third {
         display: grid;
         grid-template-columns: auto auto;
     }
-    .third .contact-box{
+
+    .third .contact-box {
         justify-content: flex-start;
     }
 }
 
-@media only screen and (max-width:877px) {
-    .first .box .child {
-        flex-basis: 50%;
+@media only screen and (max-width:1000px) {
+    .nav__logo {
+        font-size: 2.2em;
     }
-}
-
-@media only screen and (max-width:879px) {
 
     nav {
         position: relative;
@@ -60,6 +59,34 @@
         top: 10%;
         transform: translate(-50%, -50%);
 
+    }
+}
+
+@media only screen and (max-width:877px) {
+    .first .box .child {
+        flex-basis: 50%;
+    }
+}
+
+
+@media only screen and (max-width:841px) {
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav__links {
+        font-size: large;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0.5em;
+    }
+
+    .btn {
+        min-width: fit-content;
     }
 }
 
@@ -89,26 +116,6 @@
     }
 }
 
-@media only screen and (max-width:750px) {
-
-    nav {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .nav__links {
-        font-size: large;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        margin: 0.5em;
-    }
-
-    .btn {
-        min-width: fit-content;
-    }
-}
 
 @media only screen and (max-width:628px) {
     .first .box .child {
@@ -119,9 +126,59 @@
     }
 }
 
+@media only screen and (max-width:548px) {
+    .third {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (max-width:533px) {
+    .container .header .content h1 {
+        zoom: 0.8;
+        width: 100%;
+    }
+
+    main .second .h2 {
+        zoom: 0.8;
+    }
+}
+
 @media only screen and (max-width:500px) {
     body {
-        zoom: 0.6;
+        zoom: 0.5;
+    }
+
+    .container,
+    .first,
+    .second,
+    .third,
+    .contact-header {
+        zoom: 2;
+    }
+
+    .container .image {
+        zoom: 0.7;
+    }
+
+    .container .image__content__1,
+    .container .image__content__2 {
+        zoom: 0.7;
+    }
+    .container .image{
+        zoom: 0.5;
+    }
+}
+
+@media only screen and (max-width:402px) {
+    .third >*{
+        zoom: 0.7;
+    }
+
+    .second h2 {
+        zoom: 0.7;
     }
 }
 
