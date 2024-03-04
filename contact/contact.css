@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(hospital.jpeg);
+    background: url(new_hospital.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -29,7 +29,7 @@
 .contact .content h2 {
     font-size: 40px;
     font-weight: 500;
-    color: #00bcd4;
+    color: #fff;
 
 }
 
@@ -70,6 +70,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid white;
     border-radius: 50%;
     font-size: 22px;
 
@@ -86,7 +87,7 @@
 
 .container .contactInfo .box .text h3 {
     font-weight: 500;
-    color: #00bcd4;
+    color: #5dccca;
 
 }
 
