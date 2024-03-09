@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -12,7 +12,8 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #209677;;
+    background: #209677;
+    ;
     /* border-radius: 5px; */
 }
 
@@ -35,6 +36,7 @@ body {
     /* background-size: cover; */
     width: 100vw;
     overflow-x: hidden;
+    position: relative;
 }
 
 header {
@@ -44,7 +46,7 @@ header {
     padding: 20px 0;
 }
 
-header h1{
+header h1 {
     margin: 0;
 }
 
@@ -83,15 +85,15 @@ h2 {
     border-radius: 10px;
 }
 
-.service-item i{
+.service-item i {
     color: #28bf96;
 }
 
-.service-item:hover i{
+.service-item:hover i {
     color: #209677;
 }
 
-.service-item:hover h3{
+.service-item:hover h3 {
     color: #209677;
 }
 
@@ -108,7 +110,7 @@ h2 {
     margin-bottom: 15px;
 }
 
-.service-item i{
+.service-item i {
     font-size: 30px;
 }
 
@@ -135,3 +137,5 @@ h2 {
         flex-basis: calc(100% - 40px);
     }
 }
+
+
