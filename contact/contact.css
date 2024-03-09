@@ -6,7 +6,27 @@
 
 
 }
-
+.back button {
+    z-index: 30;
+    outline: none;
+    background-color: #28bf96;
+    font-size: 1rem;
+    width: fit-content;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+  
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .back button:hover {
+    background-color: #209677;
+    cursor: pointer;
+  }
 
 ::-webkit-scrollbar {
     width: 10px;
