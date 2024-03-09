@@ -1,20 +1,23 @@
 /* Global Styles */
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-.buttons-basic{
+
+.buttons-basic {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-label{
+
+label {
     height: fit-content;
     background-color: #209677;
     color: #fff;
@@ -24,14 +27,19 @@ label{
     border-radius: 5px;
     align-self: flex-end;
     user-select: none;
+    text-align: center;
+    font-size: 0.9rem;
 }
-label>*{
+
+label>* {
     font-size: 0.7 rem;
 
 }
-input[type="file"]{
+
+input[type="file"] {
     display: none;
 }
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -41,13 +49,15 @@ input[type="file"]{
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #209677;;
+    background: #209677;
+    ;
 }
 
 ::-webkit-scrollbar-thumb:hover {
     cursor: grab;
     background: #209677;
 }
+
 header {
     background-color: #209677;
     color: #fff;
@@ -74,7 +84,7 @@ h1 {
     margin: 20px;
     margin-top: 40px;
     /* background-color: rgb(252, 255, 233); */
-    background-color:white;
+    background-color: white;
     padding: 10px 15px;
     border-radius: 7px;
     border: 6px solid rgb(204, 255, 200);
@@ -82,7 +92,7 @@ h1 {
 }
 
 
-.intro-talk h1{
+.intro-talk h1 {
     font-size: 28px;
 }
 
@@ -92,7 +102,7 @@ h1 {
     margin: 20px;
     margin-top: 33px;
     /* background-color: rgb(255, 253, 222); */
-    background-color:white;
+    background-color: white;
     padding: 3px 15px;
     border-radius: 7px;
     border: 6px solid rgb(202, 255, 200);
@@ -100,7 +110,7 @@ h1 {
     z-index: 2;
 }
 
-.intro-talk2 h2{
+.intro-talk2 h2 {
     font-size: 1.3rem;
     margin: 9px 10px;
 }
@@ -109,7 +119,7 @@ h1 {
 #insurance-pic {
     position: relative;
     top: 10%;
-    width:60%;
+    width: 60%;
     max-width: 80rem;
     bottom: 100px;
 }
@@ -135,8 +145,8 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items:last baseline;
-    
+    align-items: last baseline;
+
 }
 
 .plan:hover {
@@ -164,6 +174,7 @@ ul li {
     margin-bottom: 5px;
     margin-left: 15px;
 }
+
 .btn {
     background-color: #e8fff8;
     color: #fff;
@@ -171,9 +182,10 @@ ul li {
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
-    margin :10rem;
+    margin: 10rem;
 }
-.btn{
+
+.btn {
     font-size: 10px;
 }
 
@@ -188,17 +200,18 @@ ul li {
     font-size: 10px;
     display: inline-block;
 }
-.btn span{
+
+.btn span {
     font-size: 1.4em;
 }
 
-.btn svg{
+.btn svg {
     font-size: 20px;
 }
 
 
 
-.buttons{
+.buttons {
     display: flex;
     justify-content: space-evenly;
 }
@@ -210,9 +223,11 @@ button {
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
-    
+
 }
-#insurance-btn02,#insurance-btn022{
+
+#insurance-btn02,
+#insurance-btn022 {
     background-color: #209677;
     color: #fff;
     border: none;
@@ -221,26 +236,31 @@ button {
     cursor: pointer;
     border-radius: 5px;
 }
-.basic{
-    margin-top:52px ;
+
+.basic {
+    margin-top: 52px;
 }
-.standard{
+
+.standard {
     margin-top: 34px;
 }
 
 
-button:hover,label:hover {
+button:hover,
+label:hover {
     background-color: #1b8065;
     box-shadow: 2px 2px 4px rgb(167, 167, 167);
 }
 
-#insurance-btn02,#insurance-btn022 {
+#insurance-btn02,
+#insurance-btn022 {
     margin-top: 17px;
 }
 
-.upload-btn{
+.upload-btn {
     padding: 10px;
 }
+
 footer {
     background-color: #209677;
     color: #fff;
