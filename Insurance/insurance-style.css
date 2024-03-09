@@ -22,8 +22,11 @@ label{
     padding: 8px 20px;
     cursor: pointer;
     border-radius: 5px;
-    font-size: 0.7 rem;
     align-self: flex-end;
+}
+label>*{
+    font-size: 0.7 rem;
+
 }
 input[type="file"]{
     display: none;
@@ -103,7 +106,10 @@ h1 {
 
 
 #insurance-pic {
-    width:90%;
+    position: relative;
+    top: 10%;
+    width:60%;
+    max-width: 80rem;
     bottom: 100px;
 }
 
@@ -125,6 +131,11 @@ main {
     margin-bottom: 20px;
     border-radius: 5px;
     transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:last baseline;
+    
 }
 
 .plan:hover {
@@ -159,6 +170,7 @@ ul li {
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
+    margin :10rem;
 }
 .btn{
     font-size: 10px;
@@ -203,7 +215,8 @@ button {
     background-color: #209677;
     color: #fff;
     border: none;
-    padding: 10px 20px;
+    padding: 10px;
+    margin: 0 0.5rem;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -215,7 +228,7 @@ button {
 }
 
 
-button:hover {
+button:hover,label:hover {
     background-color: #1b8065;
     box-shadow: 2px 2px 4px rgb(167, 167, 167);
 }
