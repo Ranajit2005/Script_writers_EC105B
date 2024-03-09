@@ -19,7 +19,7 @@
 
 ::-webkit-scrollbar-thumb:hover {
   cursor: grab;
-  background: var(--primary-color-dark);
+  background: #209677;
 }
 
 
