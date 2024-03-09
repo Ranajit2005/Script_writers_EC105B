@@ -23,6 +23,7 @@ label{
     cursor: pointer;
     border-radius: 5px;
     align-self: flex-end;
+    user-select: none;
 }
 label>*{
     font-size: 0.7 rem;
