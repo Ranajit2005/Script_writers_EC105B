@@ -1,10 +1,33 @@
 /* Global Styles */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-
+.buttons-basic{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+label{
+    height: fit-content;
+    background-color: #209677;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.7 rem;
+    align-self: flex-end;
+}
+input[type="file"]{
+    display: none;
+}
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -80,9 +103,7 @@ h1 {
 
 
 #insurance-pic {
-    display: flex;
-    justify-self: center;
-    position: relative;
+    width:90%;
     bottom: 100px;
 }
 
@@ -178,7 +199,14 @@ button {
     border-radius: 5px;
     
 }
-
+#insurance-btn02,#insurance-btn022{
+    background-color: #209677;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
 .basic{
     margin-top:52px ;
 }
@@ -192,7 +220,7 @@ button:hover {
     box-shadow: 2px 2px 4px rgb(167, 167, 167);
 }
 
-#insurance-btn02 {
+#insurance-btn02,#insurance-btn022 {
     margin-top: 17px;
 }
 
