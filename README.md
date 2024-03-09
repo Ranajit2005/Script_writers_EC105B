@@ -46,4 +46,4 @@ MEDIcure is a comprehensive medical website developed by a team consisting of Ra
 ## Conclusion
 MEDiCure's website offers a user-friendly interface with comprehensive information about healthcare, insurance, and medical services. With its intuitive navigation and informative content, the website aims to serve as a valuable resource for individuals seeking medical assistance and guidance.<br> <br>
 
-TEAM NAME : Script Writers : Ranajit Dey(Team Lead), Ranit Jana, Md Salman Farsee and Dipanjan Paja.
+TEAM NAME : Script Writers : Ranajit Dey(Team Lead), Ranit Jana, Md Salman Farsee and Dipanjan Panja.
